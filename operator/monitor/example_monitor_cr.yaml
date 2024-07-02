@@ -1,0 +1,8 @@
+apiVersion: dcna.dev/v1beta1
+kind: Monitor
+metadata:
+  name: autonomous-monitor
+  annotations:
+    dcna.io/monitor: "true"
+spec:
+  frequency: "5m"

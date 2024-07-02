@@ -1,0 +1,10 @@
+apiVersion: dcna.dev/v1beta1
+kind: GrafanaDatasource
+metadata:
+  name: autonomous-grafana-datasource
+spec:
+  name: gcp-datasource
+  base_url: https://dcna.localhost
+  tokenSecretRef:
+    name: grafana-sa-token-secret
+    key: attribute.key
