@@ -11,13 +11,25 @@ The solution consists of three components:
 - Autonomous agent: This is the main component. It has the deep reinforcement learning model responsible for analyzing the state of the environment and defining actions to be taken.
 
 ### General system's architecture:
+<div align="center">
+ 
 ![Experimental architecture](images/architecture_diagram.png)
 
+</div>
+
 ### Simulation architecture:
+<div align="center">
+ 
 ![Simulation architecture](images/simulation_diagram.png)
 
+</div>
+
 ### Experimental architecture:
+<div align="center">
+ 
 ![Experimental architecture](images/experiment_diagram.png)
+
+</div>
 
 ### TODO
 
